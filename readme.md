@@ -1,6 +1,6 @@
 02oct21
 
-simple project to make sense of .net framework 6.0 [ pka core, x-platform ] release story for implementation of webapi  
+simple project to make sense of .net framework [ pka core, x-platform ] 6.0 release story for implementation of webapi  
 
 https://dotnet.microsoft.com/download/dotnet/6.0 | windows | installers | x64 -> dotnet-sdk-6.0.100-rc.1.21463.6-win-x64.exe
 https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new | web & webapi  
