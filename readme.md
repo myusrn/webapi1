@@ -1,6 +1,13 @@
-02oct21
+09oct21
 
 simple project to make sense of .net framework [ pka core, x-platform ] 6.0 release story for implementation of webapi  
+
+docker image for containerizing app, see https://hub.docker.com/_/microsoft-dotnet-aspnet | -runtime | -samples | -sdk 
+docker run -it --name dotnet_aspnet mcr.microsoft.com/dotnet/aspnet:6.0 /bin/bash
+docker run -it --name dotnet_runtime mcr.microsoft.com/dotnet/runtime:6.0 /bin/bash
+docker run -it --rm -p 8000:80 --name dotnet_sample_aspnetapp mcr.microsoft.com/dotnet/samples:aspnetapp
+docker run -it --rm --name dotnet_sample_dotnetapp mcr.microsoft.com/dotnet/samples:dotnetapp
+docker run -it --name dotnet_sdk mcr.microsoft.com/dotnet/sdk:6.0 /bin/bash
 
 https://dotnet.microsoft.com/download/dotnet/6.0 | windows | installers | x64 -> dotnet-sdk-6.0.100-rc.1.21463.6-win-x64.exe
 https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new | web & webapi  

@@ -10,4 +10,5 @@ app.MapGet("/", () => "Hello World!");
 app.MapGet("/api/values", () => new string[] { "value1", "value2" });
 app.MapGet("/api/values/{id:int}", (int id) => $"value for id = {id}" );
 app.UseSwaggerUI();
-app.Run();
+//app.Run();
+await app.RunAsync();
